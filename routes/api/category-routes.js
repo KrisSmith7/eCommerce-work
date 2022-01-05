@@ -36,7 +36,7 @@ router.get('/:id', (req, res) => {
     });
 });
 
-//route not working
+
 router.post('/', (req, res) => {
   // create a new category
   Category.create({
@@ -49,7 +49,7 @@ router.post('/', (req, res) => {
     });
 });
 
-//route not working
+
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update(req.body, {
